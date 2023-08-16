@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="A propos | Youness Ouzzedi" description="About Jeanine White Lorem Ipsum">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="A propos"
+				tagline="Je vous en dis un peu plus sur moi-même et mon parcours."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Youness Ouzzedi with computer since his young age"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Mon parcours</h2>
+				<div class="content">
+					<p>
+						Dès mon enfance, ma fascination pour les nouvelles technologies a été une source d'inspiration constante.
+						Ma curiosité m'a naturellement guidé vers le monde de l'informatique, alimentée par le désir de comprendre en profondeur le fonctionnement d'Internet et des systèmes numériques.
+					</p>
+					<br>
+					<p>
+						Vivre et travailler pour Apple en Irlande pendant plusieurs années a été une aventure incroyable.
+						J'ai eu l'opportunité de développer une multitude de compétences, de la gestion de projets complexes à la collaboration interculturelle.
+						Mon expérience m'a enseigné l'importance de l'ouverture d'esprit, car je n'ai plus peur de relever des défis inconnus.
+					</p>
+					<br>
+					<p>
+						Cette passion pour les technologies et la curiosité qui m'anime m'ont préparé à poursuivre ma croissance dans un monde en constante évolution.
+						Je suis donc toujours enthousiaste à l'idée de relever de nouveaux défis avec confiance et créativité.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Diplômes</h2>
+				<div class="content">
+					<p>Bac+4 Concepteur d'Applications (RNCP)</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Compétences</h2>
+				<div class="content">
+					<p>HTML, CSS, JavaScript, React, React Native, NodeJS, NextJS, Express, MongoDB</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
