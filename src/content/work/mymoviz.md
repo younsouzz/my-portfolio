@@ -18,7 +18,7 @@ Je vous présente My Moviz, le site idéal pour suivre les derniers films tout e
 
 Vous avez la vue sur toutes les nouvelles sorties.
 
-Avec l'aide de l'API TheMovieDatabase, vous avez accès aux les informations les plus récentes sur les films du moment, telles que les notes.
+Avec l'aide de l'API TheMovieDatabase, vous avez accès aux informations les plus récentes sur les films du moment, telles que les notes.
 
 Vous pouvez épingler un film, le mettre en favoris, le liker et le noter et vous pouvez accéder à ces informations en haut à droite de la page grâce à un compteur.
 
