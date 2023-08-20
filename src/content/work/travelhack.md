@@ -8,7 +8,6 @@ description: |
 tags:
   - MVP
   - iOS
-  - Android
   - React
   - React Native
 ---
