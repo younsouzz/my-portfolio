@@ -12,6 +12,8 @@ tags:
   - React Native
 ---
 
+### (Vidéo/démo de l'application à venir)
+
 > Application développée en React Native.
 
 
