@@ -4,7 +4,7 @@ publishDate: 2020-03-04 00:00:00
 img: /assets/stock-3.jpg
 img_alt: Page d'accueil du site internet hackatweet
 description: |
-  Clone de Twitter réalisé en collaboration avec 1 développeur.
+
 tags:
   - React
   - Twitter

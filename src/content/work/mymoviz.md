@@ -4,7 +4,7 @@ publishDate: 2019-12-01 00:00:00
 img: /assets/mymoviz.jpg
 img_alt: Page d'accueil du site internet mymoviz.
 description: |
-  Ne manquez plus jamais les dernières sorties au cinéma.
+
 tags:
   - React
   - Redux
