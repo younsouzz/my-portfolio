@@ -4,7 +4,7 @@ publishDate: 2019-12-01 00:00:00
 img: /assets/morningnews.jpg
 img_alt: Page d'accueil du site internet Morning News.
 description: |
-  Dernières informations du journal The Verge.
+
 tags:
   - Persist store
   - Redux
