@@ -1,6 +1,6 @@
 ---
 title: My Moviz
-publishDate: 2019-12-01 00:00:00
+publishDate: 2023-03-01 00:00:00
 img: /assets/mymoviz.jpg
 img_alt: Page d'accueil du site internet mymoviz.
 description: |
