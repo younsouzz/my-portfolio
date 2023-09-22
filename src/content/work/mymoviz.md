@@ -11,8 +11,9 @@ tags:
   - API
 ---
 
-<a href="https://mymoviz-frontend-one.vercel.app">Lien vers le site</a>
+##### <a href="https://mymoviz-frontend-one.vercel.app">Lien vers le site</a>
 
+<br>
 
 Je vous présente My Moviz, le site idéal pour suivre les derniers films tout en ajoutant une touche personnelle.
 
