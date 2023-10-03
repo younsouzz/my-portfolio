@@ -1,6 +1,6 @@
 ---
 title: Fullstack Chat Project
-publishDate: 2023-04-01 00:00:00
+publishDate: 2023-10-01 00:00:00
 img: /assets/chat.jpg
 img_alt: Fullstack real time chat app.
 description: |
