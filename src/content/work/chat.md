@@ -10,5 +10,5 @@ tags:
   - NodeJS
 ---
 
-### (Vidéo/démo de l'application à venir)
+### (Lien de l'application à venir)
 
