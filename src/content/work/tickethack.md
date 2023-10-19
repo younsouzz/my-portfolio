@@ -10,10 +10,10 @@ tags:
   - JavaScript
 ---
 
-### (Lien du site à venir)
+### (Link to come)
 
-Le site web Tickehack offre une solution pratique pour la réservation de billets de train en utilisant des trajets récupérés à partir d'un objet JSON.
+The Tickehack website provides a convenient solution for booking train tickets using journeys retrieved from a JSON object.
 
-Grâce à l'interface utilisateur soigneusement conçue, les informations sur les différents trajets sont affichées de manière claire, permettant aux utilisateurs de parcourir facilement les options disponibles et de sélectionner celles qui correspondent le mieux à leurs besoins.
+With a carefully designed user interface, information about various journeys is displayed clearly, allowing users to easily browse available options and select the ones that best suit their needs.
 
-La magie opère grâce à l'utilisation du DOM (Document Object Model) en JavaScript. Le site exploite le potentiel du DOM pour créer des interactions en temps réel avec l'utilisateur. Lorsqu'un utilisateur sélectionne un trajet spécifique, JavaScript manipule le DOM pour afficher les détails du trajet sélectionné, y compris les informations sur le tarif et la disponibilité.
+The magic happens thanks to the use of the Document Object Model (DOM) in JavaScript. The site leverages the potential of the DOM to create real-time interactions with the user. When a user selects a specific journey, JavaScript manipulates the DOM to display details of the selected journey, including fare and availability information.
