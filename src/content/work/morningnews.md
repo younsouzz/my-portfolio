@@ -11,12 +11,12 @@ tags:
   - API
 ---
 
-##### <a href='https://morningnews-frontend-alpha.vercel.app'>Lien vers le site</a>
+##### <a href='https://morningnews-frontend-alpha.vercel.app'>Link to website</a>
 
 <br>
 
-The Morning News est une application qui va vous permettre d'afficher les news récentes du journal The Verge. Vous pourrez également sauvegarder vos articles préférés et les retrouver en vous connectant à votre compte.
+The Morning News is an application that allows you to view the latest news from The Verge. You can also save your favorite articles and access them by logging into your account.
 
-J'ai utilisé les technologies React, Redux, Next.
+I used technologies such as React, Redux, and Next.
 
-Sécurisation des utilisateurs avec la mécanique du token et du hachage à l'aide de la fonction cryptographique irréversible.
+User security is ensured through the use of tokens and hashing with irreversible cryptographic functions.
