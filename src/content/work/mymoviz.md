@@ -11,16 +11,16 @@ tags:
   - API
 ---
 
-##### <a href="https://mymoviz-frontend-one.vercel.app">Lien vers le site</a>
+##### <a href="https://mymoviz-frontend-one.vercel.app">Link to website</a>
 
 <br>
 
-Je vous présente My Moviz, le site idéal pour suivre les derniers films tout en ajoutant une touche personnelle.
+The perfect website for keeping up with the latest movies while adding a personal touch.
 
-Vous avez la vue sur toutes les nouvelles sorties.
+You get a view of all the newest releases.
 
-Avec l'aide de l'API TheMovieDatabase, vous avez accès aux informations les plus récentes sur les films du moment, telles que les notes.
+With the assistance of TheMovieDatabase API, you gain access to the most up-to-date information about the current movies, including ratings.
 
-Vous pouvez épingler un film, le mettre en favoris, le liker et le noter et vous pouvez accéder à ces informations en haut à droite de la page grâce à un compteur.
+You can pin a movie, add it to your favorites, like it, and rate it. You can access this information in the top right corner of the page through a counter.
 
-Grâce à React et Redux, le site est à la fois réactif et fluide.
+Thanks to React and Redux, the site is both responsive and smooth.
