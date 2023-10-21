@@ -11,48 +11,48 @@ tags:
   - SPA
 ---
 
-##### <a href="https://hackatweet-frontend-two.vercel.app">Lien vers le site</a>
+##### <a href="https://hackatweet-frontend-two.vercel.app">Link to website</a>
 
 <br>
 
 #### Intro
 
-Création d'une SPA (Single Page Application) basée sur Twitter.
+Creating a Single Page Application (SPA) based on Twitter.
 
-Réalisation de toute la partie frontend et backend.
+Handling the entire frontend and backend development.
 
-Implémentation de TDD pour certaines fonctionnalités (par exemple la vérification des champs saisis).
+Implementing Test-Driven Development (TDD) for some features, such as input field validation.
 
 #### Login
 
-La page login vous permet de vous créer un compte ou de vous connecter à l’application.
+The login page allows you to either create an account or log in to the application.
 
-Au clic sur les boutons "Sign up" ou "Sign in", une modale s’ouvre avec les champs de saisie correspondants à l’action effectuée.
+Clicking the "Sign up" or "Sign in" buttons opens a modal with input fields corresponding to the selected action.
 
-Dans le cas d'un Sign in, au clic sur le bouton dans la modale, l’application communique avec le backend et si les informations sont correctes, l’utilisateur est redirigé vers la page d'accueil.
+In the case of a "Sign in," clicking the button within the modal triggers communication with the backend, and if the information is correct, the user is redirected to the home page.
 
-Dans le cas d’un Sign up, les informations de l’utilisateur sont enregistrées en BDD.
+For a "Sign up," the user's information is stored in the database.
 
-Utilisation d'un token et hashage du mot de passe.
+This process involves the use of a token and password hashing for security.
 
-#### Page d'accueil
+#### Homepage
 
-La page d’accueil est découpée en trois sections.
+The home page is divided into three sections:
 
-La première à gauche affiche un logo qui fait aussi office de bouton pour revenir à cette page, les informations de l’utilisateur et un bouton logout.
+1. The left section displays a logo that also functions as a button to return to this page, user information, and a logout button.
 
-La partie du milieu sert à ajouter un tweet et à voir le fil des tweets effectués par tous les utilisateurs.
+2. The middle section is used for adding a tweet and viewing the timeline of tweets made by all users.
 
-Enfin, la partie de droite affiche les "Trends", c'est-à-dire tous les hashtags qui ont été utilisés et le nombre de fois qu’ils l’ont été.
+3. Finally, the right section displays "Trends," which includes all the hashtags that have been used and the number of times they have been used.
 
 #### Tweets
 
-Blocage de l'écriture d'un tweet à 280 caractères.
+Restricting tweet length to 280 characters.
 
-Si un tweet appartient à l’utilisateur connecté, il peut le liker mais aussi le supprimer mais si ce n’est pas le sien, il aura seulement la possibilité de le liker.
+If a tweet belongs to the logged-in user, he can like and delete it but if the tweet does not belong to the user, he can only like it.
 
-Enfin, la page hashtag s’affiche lorsque l’utilisateur clique sur un des hashtags dans la section Trends. Cette action redirige vers une URL personnalisée reprenant le nom de la page et le nom du hashtag (par exemple: /hashtag/hello pour #hello).
+The hashtag page is displayed when a user clicks on one of the hashtags in the Trends section. This action redirects to a customized URL that includes the page name and the hashtag name (e.g., /hashtag/hello for #hello).
 
-La barre de recherche permet de chercher d’autres hashtags, à chaque recherche l’url doit se mettre à jour. Si aucun tweet ne comporte le hashtag recherché, le message "No tweets found with #hashtagname" s’affiche.
+The search bar allows users to search for other hashtags, and with each search, the URL updates. If no tweets contain the searched hashtag, a message "No tweets found with #hashtagname" is displayed.
 
-Au clic sur le logo, l’utilisateur revient sur la page d’accueil.
+Clicking on the logo takes the user back to the home page.
