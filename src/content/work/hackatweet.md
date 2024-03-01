@@ -15,6 +15,9 @@ tags:
 
 <br>
 
+> ###### **Version 0 that includes basic functions: <br> <br> sign-in, sign-up, add/like/delete a tweet, hashtag with 'Trends' section. <br> <br> New elements will be added gradually.**
+<br>
+
 #### Intro
 
 Creating a Single Page Application (SPA) based on Twitter.
