@@ -16,7 +16,9 @@ tags:
   - CORS
 ---
 
-### (Link to come)
+##### GitHub repo: https://github.com/younsouzz/fullstackMiniApp
+
+<br>
 
 A minimalist fullstack chat app built with React Native (Expo + TypeScript) on the frontend and Node.js (Express) on the backend.
 Features real-time messaging with persistent storage via a JSON file.
