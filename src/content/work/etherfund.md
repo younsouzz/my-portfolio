@@ -8,7 +8,7 @@ description: |
 tags:
   - Solidity
   - Hardhat
-  - Ether.js
+  - Ethers.js
 ---
 
 ##### GitHub repo: https://github.com/younsouzz/ether-fund
