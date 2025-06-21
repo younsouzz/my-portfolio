@@ -6,14 +6,12 @@ img_alt: Fullstack real time chat app.
 description: |
 
 tags:
-  - Real Time Chat
   - React Native via Expo
   - Expo Router
   - TypeScript
   - Axios
   - Node.js
   - Express
-  - CORS
 ---
 
 ##### GitHub repo: https://github.com/younsouzz/fullstackMiniApp
