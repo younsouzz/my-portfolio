@@ -1,6 +1,6 @@
 ---
 title: Ether Fund
-publishDate: 2023-10-05 00:00:00
+publishDate: 2025-06-20 00:00:00
 img: /assets/etherfund.jpg
 img_alt: A simple Ethereum smart contract to collect and manage pooled ETH.
 description: |

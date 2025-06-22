@@ -1,6 +1,6 @@
 ---
 title: Fullstack Mini Chat
-publishDate: 2023-10-01 00:00:00
+publishDate: 2025-06-19 00:00:00
 img: /assets/chat.jpg
 img_alt: Fullstack real time chat app.
 description: |
