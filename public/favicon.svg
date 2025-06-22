@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="64"
-  height="64"
+  width="128"
+  height="128"
   viewBox="0 0 64 64"
   role="img"
   aria-label="YO logo"
@@ -15,7 +14,7 @@
   </defs>
   <rect width="64" height="64" fill="url(#grad)" />
   <text
-    x="34%"
+    x="22"
     y="50%"
     dominant-baseline="middle"
     text-anchor="middle"
@@ -27,7 +26,7 @@
     Y
   </text>
   <text
-    x="66%"
+    x="42"
     y="50%"
     dominant-baseline="middle"
     text-anchor="middle"
