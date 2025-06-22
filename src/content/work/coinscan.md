@@ -1,6 +1,6 @@
 ---
 title: Coin Scan
-publishDate: 2023-10-01 00:00:00
+publishDate: 2025-06-21 00:00:00
 img: /assets/coinscan.jpg
 img_alt: Crypto tracker application.
 description: |
