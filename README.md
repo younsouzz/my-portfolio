@@ -1,6 +1,6 @@
 # Youness Ouzzedi's Portfolio
 
-This repository contains the source code for my personal portfolio, available here: [https://younessouzzedi.com]
+This repository contains the source code for my personal portfolio, available here: [https://youness.fr]
 
 ---
 
